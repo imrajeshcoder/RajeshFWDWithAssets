@@ -1,0 +1,16 @@
+PODS:
+  - RajeshFWDWithAssets (0.1.0)
+
+DEPENDENCIES:
+  - RajeshFWDWithAssets (from `../`)
+
+EXTERNAL SOURCES:
+  RajeshFWDWithAssets:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RajeshFWDWithAssets: 4b622e7feba4bd0859995197630c318fd161dc1a
+
+PODFILE CHECKSUM: 7d47452ed436950726ba90a2142a7ca217d3573c
+
+COCOAPODS: 1.13.0

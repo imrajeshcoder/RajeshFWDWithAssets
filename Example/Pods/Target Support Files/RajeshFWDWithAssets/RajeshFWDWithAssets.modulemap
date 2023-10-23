@@ -1,0 +1,6 @@
+framework module RajeshFWDWithAssets {
+  umbrella header "RajeshFWDWithAssets-umbrella.h"
+
+  export *
+  module * { export * }
+}

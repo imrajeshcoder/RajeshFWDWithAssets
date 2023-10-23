@@ -22,7 +22,7 @@ pod 'RajeshFWDWithAssets'
 
 ## Author
 
-imrajeshcoder, rajesh.s@vrinsoft.com
+Rajesh Shiyal, mrajesh.coder@gmail.com
 
 ## License
 

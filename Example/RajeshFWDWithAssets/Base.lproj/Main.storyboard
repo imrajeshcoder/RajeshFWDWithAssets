@@ -1,30 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fXG-K0-WIB">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="vo8-3T-GEF">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="RajeshFWDWithAssets_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fXG-K0-WIB" customClass="ViewController" customModule="RajeshFWDWithAssets_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="IHt-eE-PWY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bdo-Ko-4ZQ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="AJg-rd-yjQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gO-ln-sL0">
+                                <rect key="frame" x="154.5" y="316" width="66" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                                <connections>
+                                    <action selector="btnAction_LoginClicked:" destination="fXG-K0-WIB" eventType="touchUpInside" id="joD-wz-spA"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ede-tn-k4Q">
+                                <rect key="frame" x="32" y="367" width="311" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="PyY-nI-jO4"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6gO-ln-sL0" firstAttribute="centerY" secondItem="AJg-rd-yjQ" secondAttribute="centerY" id="DOW-B6-9dJ"/>
+                            <constraint firstItem="Ede-tn-k4Q" firstAttribute="leading" secondItem="AJg-rd-yjQ" secondAttribute="leadingMargin" constant="16" id="aoc-8F-0xJ"/>
+                            <constraint firstItem="Ede-tn-k4Q" firstAttribute="top" secondItem="6gO-ln-sL0" secondAttribute="bottom" constant="16" id="bsF-Wd-ZAu"/>
+                            <constraint firstItem="6gO-ln-sL0" firstAttribute="centerX" secondItem="AJg-rd-yjQ" secondAttribute="centerX" id="cKp-6t-urS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ede-tn-k4Q" secondAttribute="trailing" constant="16" id="nHm-gh-sv8"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tmpImage" destination="Ede-tn-k4Q" id="Pzc-2R-QfY"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="51B-lv-i9C" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="134" y="-31"/>
         </scene>
     </scenes>
 </document>

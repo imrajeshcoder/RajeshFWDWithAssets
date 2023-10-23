@@ -1,0 +1,6 @@
+framework module Pods_RajeshFWDWithAssets_Tests {
+  umbrella header "Pods-RajeshFWDWithAssets_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

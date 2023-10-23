@@ -1,0 +1,22 @@
+{
+  "name": "RajeshFWDWithAssets",
+  "version": "0.1.0",
+  "summary": "A short description of RajeshFWDWithAssets.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/imrajeshcoder/RajeshFWDWithAssets",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "imrajeshcoder": "rajesh.s@vrinsoft.com"
+  },
+  "source": {
+    "git": "https://github.com/imrajeshcoder/RajeshFWDWithAssets.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RajeshFWDWithAssets/Classes/**/*"
+}
