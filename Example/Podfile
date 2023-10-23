@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RajeshFWDWithAssets_Example' do
+  pod 'RajeshFWDWithAssets', :path => '../'
+
+  target 'RajeshFWDWithAssets_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
